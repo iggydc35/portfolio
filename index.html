@@ -1,25 +1,73 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>IFSC 4396 - Miguel Del Carmen</title>
-  </head>
-  <body>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Miguel Del Carmen</title>
+    <meta name="description" content="My Portfolio">
+    <meta name="keywords" content="Portfolio">
+    <meta name="author" content="Miguel Del Carmen">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/style/studentportfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&amp;display=swap" rel="stylesheet">
     
+</head>
+
+<body>
     <div id="container">
-      <div id="header">
-        <h1>Hello World - Miguel Del Carmen - MY PORTFOLIO </h1>
-      </div>
-      <div id="nav">
-        <ul>
-          <li><a href="http://ualr.edu" title="head to ualr">UALR</a></li>
-          <li><a href="https://iggydc35.github.io/IFSC-1310/">Example HTML Project</a></li>
-          <li><a href="https://www.linkedin.com/in/miguel-del-carmen-93559724a/">Linkedin</a></li>
-          <li><a href="">Resume</a></li>
-        </ul>
-      </div>
-    <div id="footer">
-      <h6>&copy; 2023 Miguel Del Carmen | <a href="#top">Back to Top</a></h6>
-    </div>
-  </body>
+        <h1>Portfolio of Miguel Del Carmen</h1>
+
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'Home')" id="defaultOpen">Profile</button>
+            <button class="tablinks" onclick="openTab(event, 'Resume')">Resume</button>
+            <button class="tablinks" onclick="openTab(event, 'Skills')">Skills</button>
+            <button class="tablinks" onclick="openTab(event, 'Education')">Education</button>
+            <button class="tablinks" onclick="openTab(event, 'Accomplishments')">Accomplishments</button>
+            <button class="tablinks" onclick="openRedirect('workexamples.html')">Work Examples</button>
+            <button class="tablinks" onclick="openTab(event, 'CoverLetter')">Cover Letter</button>
+            <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
+        </div>
+
+        <!-- Begin Home Section -->
+        <div id="Home" class="tabcontent">
+              <h2>Profile</h2>
+              Hello there! Welcome to my portfolio! My name is Miguel. I'm currently a student at University of Arkansas at Little Rock pursuing a degree in Imformation Science.
+        </div>
+
+        <!-- Begin Skills Section -->
+        <div id="Skills" class="tabcontent">
+            <h2>Skills</h2>
+        </div>
+
+        <div id="Education" class="tabcontent">
+          <h2>Education</h2>
+        </div>
+
+        <div id="Accomplishments" class="tabcontent">
+            <h2>Accomplishments</h2>
+        </div>        
+        
+        <!-- Begin Skills Section -->
+        <div id="Resume" class="tabcontent">
+            <h2>Resume</h2>
+            <a href="/assets/images/resume020123.pdf">Current Resume</a>
+        </div>
+        
+        <div id="CoverLetter" class="tabcontent">
+            <h2>Letter of Introduction</h2>
+        </div>
+
+        <div id="Contact" class="tabcontent">
+            <h2>Contact Me</h2>
+            <a href = "mailto: iggydc35@gmail.com">Send me an Email</a>
+            <br>
+            <a href = "https://www.linkedin.com/in/miguel-del-carmen-93559724a/">LinkedIn</a>
+        </div>    
+</div>
+<footer id="footer">
+    <h6>&copy; 2023 Miguel Del Carmen | <a href="#top">Back to Top</a></h6>
+</footer>
+<script type="text/javascript" src="assets/scripts/index.js"></script>
+
+</body>
 </html>
-       
