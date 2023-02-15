@@ -11,6 +11,20 @@ body {
     
     
 	}
+    .avatar {
+        display: block;
+        width: 25%;
+        height: auto;
+      }
+
+      .image {
+        display: block;
+        width: 25%;
+        height: auto;
+        float: right;
+        padding: 10px;
+      }
+      
 
 #container {
 	width: 1000px;
